@@ -2,12 +2,9 @@ import {useState} from 'react';
 
 const ManageData = () => {
     let someData = 10;
-    console.log(someData);
 
     const [number, setNumber] = useState(20);
 
-    
-    console.log(number);
     return(
         <div>
             <div>
